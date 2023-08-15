@@ -1,0 +1,386 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+.container{
+    height:100%;
+    width: 100vw;
+    }
+.one{
+    height:730px;
+    width:100%;
+    }
+.navbar{
+    height:75px;
+    width:100%;
+    position :fixed;  
+    background-color: #333333;
+    color:#FFFFFF;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    overflow: hidden;
+    flex-direction: row;
+}
+.navheading{
+    height:30px;
+    width:18%;
+    
+    color:#FFFFFF;
+    text-decoration: none;
+}
+h4{
+    color:#FFFFFF;
+   
+}
+.all-links{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    height:100px;
+    width:40%;
+    align-items: center;
+    
+}
+a{
+  color:#FFFFFF;
+  text-decoration: none;
+}  
+
+.imagecontainer{
+    height: 730px;
+    width: 100%;
+    overflow-x: hidden;
+    background-image: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    background-clip: border-box;
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-position: center;
+    background-color: rgba(0,0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagecontainer img{
+    background: rgba(0,0, 0, 0.9);
+}
+.headingonpic{
+    height:100%;
+    width:100%;
+    background-color: rgba(0,0, 0, 0.2);
+    z-index: 1;
+    font-size:xx-large;
+}
+.mainheading{
+    text-align: center;
+    font-weight: bolder;
+    font:bolder;
+    color:#FFFFFF;
+    margin-top:300px;
+    
+
+}
+.para1{
+    text-align: center;
+    margin-right:20px;
+    font-size: larger;
+    color:#FFFFFF;
+    text-align: center;
+    margin-top:-340px;
+    margin-left:150px;
+    height:20%;
+    width:80%;
+}
+.image_content{
+    width:70%;
+    height:40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color:#FFFFFF;
+    margin-top:50px;
+
+    
+
+}
+.image_content h1{
+    font: bolder;
+    font-size: 70px;
+}
+.image_content p{
+    
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+   
+     
+
+.firstbutton{
+    padding:40px;
+    height:350px;
+    width:350px;
+    margin-left:640px;
+}
+.button-on-image{
+    margin-top: 1rem;
+    padding: 10px;
+    border:px solid white;
+}
+.button-on-image:hover{
+    background-color: #CAC582;
+    border:none;
+}
+.two{
+    width:100%;
+    height:80rem;
+    background-color: #F2F2F2;
+}
+.newheading{
+    width:100%;
+    height:12%;
+    text-align: center; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #F2F2F2;
+}
+.newsubheading1{
+    width:100%;
+    height:50px;
+    text-align: center;
+    margin-top: 70px;
+    font-weight:900;
+    font: bolder;
+    font-size: xx-large;
+    background-color: #F2F2F2;
+    
+}
+.secondpara{
+    width:100%;
+    height:50px;
+     text-align: center;
+    font-weight: 300;
+    font: bold;
+    background-color: #F2F2F2;
+}
+ .charts{
+    height:30%;
+    width:100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+.circlepic{
+   height:100px;
+   width:100px;
+   border-radius: 50%;
+   margin: auto;
+}
+.rectcharts1{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+}
+.rectcharts2{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+}
+.rectcharts3{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+
+}
+.charts2{
+    height:30%;
+    width:100%;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} 
+.rectcharts4{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+}
+.rectcharts5{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+}
+.rectcharts6{
+    height:80%;
+    width:25%;
+    margin-bottom:30px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding:50px ;
+}
+.lastpara{
+    width:100%;
+    height:12%;
+}
+.bhead{
+    text-align: center;
+    margin-top: 80px;;
+    font: bolder;
+    font-size: xx-large;
+}
+.lastpara{
+    width:100%;
+    height:60px;
+    font: 900;
+    font-size: larger;
+    font-weight: 300;
+    text-align: center;
+
+}
+.three{
+    width:100%;
+    height:40rem;
+    background-color:#F2F2F2;
+}
+.story{
+    width:100%;
+    height:22%;
+}
+.mission{
+    width:100%;
+    height:22%;
+}
+.vision{
+    width:100%;
+    height:22%;
+}
+.team{
+    width:100%;
+    height:34%;
+}
+
+.storyhead{
+    padding-left:120px;
+    margin-top: 20px;
+}
+.missionhead{
+    padding-left:120px;
+    margin-top: 20px;
+}
+.visionhead{
+    padding-left:120px;
+    margin-top: 20px;
+}
+.teamhead{
+    padding-left:120px;
+    margin-top: 20px;
+}
+.listofteam{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:120px;
+    margin-top: 20px;
+    padding-top: 10px;
+    font:200;
+    font-size: medium;
+}
+.four{
+    height:200px;
+    width:100%;
+    background-color: #F2F2F2;
+}
+.five{
+    height:400px;
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+
+    background-color: #F2F2F2;
+}
+.oneclass,.twomail,.threephone,.fourtiming,.fivetime,.sixtimimg,.lastmail{
+    display: flex;
+    padding-left:120px;
+    margin-top: 20px;
+    color:#7A7A7A;
+}
+
+.name{
+    height:50px;
+    width:500px;
+    margin-top:20px;
+    padding:10px;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    
+}
+form >.name{
+    border:1px solid #BFBFBF;
+}
+textarea{
+    border:1px solid #BFBFBF;
+    padding: 10px;
+}
+.lastbutton{
+    padding:10px;
+    width:150px;
+    background-color:#333333;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+
+}
+.lastbutton:hover{
+    cursor: pointer;
+    background-color:rgba(0 0 0 0.1);
+}
+span{
+    margin-right:20px;
+}
